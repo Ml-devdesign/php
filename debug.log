@@ -1,0 +1,2 @@
+[0206/191236.613:ERROR:registration_protocol_win.cc(112)] WaitNamedPipe: Le fichier spécifié est introuvable. (0x2)
+[0206/191236.618:ERROR:registration_protocol_win.cc(107)] CreateFile: Le fichier spécifié est introuvable. (0x2)

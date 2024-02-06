@@ -18,7 +18,7 @@
         echo"hello you";
        }
 
-       for( $i=0; $i<=10 ; $i++ ){                    //Voir Sucre Syntaxique                       //inisialisisation condition incrementattion dollar i = dolor i - 1 / ++$1 -> ex : echo $i++;
+       for( $i=0; $i<=10 ; $i++ ){                    //Voir Sucre Syntaxique          //inisialisisation condition incrementattion dollar i = dolor i - 1 / ++$1 -> ex : echo $i++;
         echo($i);
        }
        ?> 

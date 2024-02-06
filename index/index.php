@@ -26,8 +26,9 @@ try {
     $sql = "SELECT * FROM departement WHERE departement_code=:num";
     $stmt = $db->prepare($sql);
     $stmt->execute([":num" => $_GET["num"]]);
-    $rs = $stmt->fetchAll();
-    foreach($rs as $row)
+    $resultats = $stmt->fetchAll();
+    print_r($resultats);
+    foreach($resultats as $row)
       echo htmlspecialchars($row['departement_nom']) . " " . htmlspecialchars($row['departement_code']) . "<br>";
   
     }
